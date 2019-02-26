@@ -27,6 +27,10 @@ def get_packages(package):
             if os.path.exists(os.path.join(dirpath, '__init__.py'))]
 
 
+def read(f):
+    return open(f, 'r', encoding='utf-8').read()
+
+
 version = get_version('bootstrap4')
 
 
@@ -36,6 +40,8 @@ setup(
     url='https://github.com/encode/bootstrap4',
     license='BSD',
     description='Bootstrap 4, packaged for Python.',
+    long_description=read('README.md'),
+    long_description_content_type='text/markdown',
     author='Tom Christie',
     author_email='tom@tomchristie.com',
     packages=get_packages('bootstrap4'),

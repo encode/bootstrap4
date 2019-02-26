@@ -1,0 +1,11 @@
+#!/bin/sh -e
+
+if [ -d 'dist' ] ; then
+    rm -r dist
+fi
+if [ -d 'bootstrap4.egg-info' ] ; then
+    rm -r bootstrap4.egg-info
+fi
+
+find bootstrap4 -type f -name "*.py[co]" -delete
+find bootstrap4 -type d -name __pycache__ -delete
