@@ -3,7 +3,7 @@
         {{ label }}
     </label>
 
-    <input type="text" class="form-control {% if error %}is-invalid{% endif %}" id="{{ field_id }}" name="{{ field_name }}" {% if required %}required{% endif %} {% if value is not none %}value="{{ value }}"{% endif %}>
+    <input type="{{ input_type }}" class="form-control {% if error %}is-invalid{% endif %}" id="{{ field_id }}" name="{{ field_name }}" {% if required %}required{% endif %} {% if value is not none %}value="{{ value }}"{% endif %}>
 
     {% if error %}
         <small class="invalid-feedback">{{ error }}</small>
