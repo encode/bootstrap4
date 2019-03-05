@@ -1,8 +1,8 @@
 The MIT License (MIT)
 
-Copyright (c) 2011-2019 Encode Ltd.
-Copyright (c) 2011-2019 Twitter, Inc.
-Copyright (c) 2011-2019 The Bootstrap Authors
+* Copyright (c) 2011-2019 Encode Ltd.
+* Copyright (c) 2011-2019 Twitter, Inc.
+* Copyright (c) 2011-2019 The Bootstrap Authors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -22,6 +22,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-All files under the `statics` directory are a repackaging of Bootstrap, with
+* All files under the `statics` directory are a repackaging of Bootstrap, with
 copyright & licensing subject to Twitter, Inc.
-All other files are copyright & licensing subject to Encode Ltd.
+* All other files are copyright & licensing subject to Encode Ltd.
